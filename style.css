@@ -17,9 +17,16 @@
     border: none;
     border-radius: 5%;
     font-size: larger;
+    background-color: antiquewhite;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    font-weight: bold;
+    cursor: grab;
 }
 
 .btn:active{
-    cursor: none;
+    cursor: grabbing;
     border: none;
 }
